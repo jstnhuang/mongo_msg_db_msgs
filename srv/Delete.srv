@@ -1,0 +1,4 @@
+mongo_msg_db_msgs/Collection collection # The collection to delete from.
+string id # The ID of the message to delete.
+---
+int32 deleted_count # 1 if message was found, 0 otherwise.

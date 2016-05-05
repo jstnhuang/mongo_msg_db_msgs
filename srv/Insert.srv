@@ -1,0 +1,5 @@
+mongo_msg_db_msgs/Collection collection # The collection to insert into.
+string json # The message to insert, as JSON.
+string msg_type # The type of the message being inserted, such as "std_msgs/Header".
+---
+string id # The ID of the inserted message.

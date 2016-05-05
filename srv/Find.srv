@@ -1,0 +1,5 @@
+mongo_msg_db_msgs/Collection collection # The collection to search in.
+string id # The ID of the message to get.
+---
+int32 matched_count # 1 if the message was found, 0 otherwise.
+mongo_msg_db_msgs/Message message

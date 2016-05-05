@@ -1,0 +1,4 @@
+mongo_msg_db_msgs/Collection collection # The collection to update.
+mongo_msg_db_msgs/Message message # The updated message. The ID refers to the message to update. The JSON field is the updated message.
+---
+int32 matched_count # 1 if message was updated, 0 otherwise.

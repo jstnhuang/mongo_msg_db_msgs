@@ -1,0 +1,3 @@
+mongo_msg_db_msgs/Collection collection # The collection to list from.
+---
+mongo_msg_db_msgs/Message[] messages # All the messages in the collection.
