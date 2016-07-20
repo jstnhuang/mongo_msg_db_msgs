@@ -24,6 +24,8 @@ before_install:
 
 notifications:
     email: false
+    slack:
+      secure: "dnAx7Vc0Yi00G0zaql5xd8VmDqlJ9RbRmoUaolXFE4vhxVhsRps/Ui7bHH/Iq4RswvqEbe80HuzqNVs1nh1p9SF+NH8kJif5Zxnabpeq0t5qErnl3L+X457LM8/MYzAwdAdDGtkRlkZeoXOkcdgiCi2LxDxQrwGAjaQBV4xyxtdJjEKJj6T0lp/LYqUovrqsMO+5NR21rj6CD6amXLtUd9oYWB+zKNuYTtLvSfX8XHDaFvh5bxZflDXFTWc+Q/m2m/oxGaSy0qXEIOd4yqOyy7dRt3eHR3RG4ozl/ydMbuEojXj+ZkysEd8JlymnciQvUHSOxl9dHVaVyFwB9tIpEsN8vC1ODDLilS09hTKDpGOeVIXkQQ2b1h0aqVnvjsdm7PueD5XEDNGJ8lwfZlVTKvRMh2gA3omqToJF18+B6Q0sBGq3z2qRk8ZFFnxZmjZcynx/xh/74lU0lg9qM8A01PI5pI+LqJVAZDduAXMWukDFK2NXjt3LdFT7ngXb3ReXwVsQpviYM8vtuaCV+MIAqWwgeKAhcfi7DBjxaAKP64BZLNLnuhxBV3hSrH1e1/ZqC2feImOwer+34Kd961aAdSXivqn1+zXyWQCM7eirXEmFIgQZy7wiZASMBKhbjEp2xSZz4Nr90EuL0cvOZCEpNmybRHng8OtZmMlPhxc2dm0="
 
 # Commands to install dependencies
 # --------------------------------
