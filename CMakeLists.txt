@@ -49,6 +49,8 @@ add_message_files(
   FILES
   Collection.msg
   Message.msg
+  MessageEvent.msg
+  MessageList.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -58,6 +60,8 @@ add_service_files(
   Find.srv
   Insert.srv
   List.srv
+  Subscribe.srv
+  SubscribeToList.srv
   Update.srv
 )
 

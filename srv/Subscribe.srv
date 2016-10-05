@@ -1,0 +1,8 @@
+# Tells the mongo_msg_db to publish a particular message to a latched topic
+# The topic name is mongo_msg_db/{db name}/{collection name}/{id}
+# The topic type is mongo_msg_db_msgs/MessageEvent.
+mongo_msg_db_msgs/Collection collection
+string id
+---
+string topic # The topic that will be published to
+string error # Empty string if success, error message otherwise.

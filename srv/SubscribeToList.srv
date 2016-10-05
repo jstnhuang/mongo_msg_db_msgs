@@ -1,0 +1,7 @@
+# Tells the mongo_msg_db to publish a particular message to a latched topic
+# The topic name is mongo_msg_db/{db name}/{collection name}
+# The topic type is mongo_msg_db_msgs/MessageList.
+mongo_msg_db_msgs/Collection collection
+---
+string topic # The topic that will be published to
+string error # Empty string if success, error message otherwise.
